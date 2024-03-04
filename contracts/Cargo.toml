@@ -5,7 +5,11 @@ version = "1.0.0"
 edition = "2021"
 
 [lib]
-crate-type = ["cdylib"]
+crate-type = ["cdylib", "rlib"]
+
+[features]
+default = []
+testutils = ["soroban-sdk/testutils"]
 
 [dependencies]
 soroban-fixed-point-math = "1.1.0"

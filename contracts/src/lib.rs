@@ -1,5 +1,6 @@
 #![no_std]
 
+use soroban_sdk::contractimpl;
 pub mod c_consts;
 pub mod c_math;
 pub mod c_num;
