@@ -2,7 +2,7 @@
 #![allow(unused)]
 
 use soroban_sdk::contractimpl;
-pub mod c_consts;
+mod c_consts;
 mod c_math;
 mod c_num;
 pub mod c_pool;
